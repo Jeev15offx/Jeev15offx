@@ -133,6 +133,14 @@ I am a Systems and Infrastructure Engineering student from **Tamil Nadu, India**
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jeev15offx&bg_color=0f172a&color=38bdf8&line=06b6d4&point=10b981&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
 </p>
 
