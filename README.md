@@ -129,7 +129,7 @@ I am a Systems and Infrastructure Engineering student from **Tamil Nadu, India**
 ### 📅 Contribution Activity & Metrics
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/calendar?username=Jeev15offx&theme=tokyonight" alt="GitHub Contribution Calendar" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/calendar?username=Jeev15offx&theme=tokyonight" alt="GitHub Contribution Calendar" />
 </p>
 
 <p align="center">
