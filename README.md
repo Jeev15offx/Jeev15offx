@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <strong>Targeting: Cloud Engineer Intern | DevOps Engineer Intern | Platform Engineer Intern | SRE Intern</strong>
+  <strong>Targeting: Cloud Engineer Intern | DevOps Engineer Intern </strong>
 </p>
 
 <p align="center">
@@ -129,7 +129,7 @@ I am a Systems and Infrastructure Engineering student from **Tamil Nadu, India**
 ### 📅 Contribution Activity & Metrics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/calendar?username=Jeev15offx&theme=tokyonight" alt="GitHub Contribution Calendar" />
+  <img src="https://ghchart.osyear.one/Jeev15offx" alt="Jeevan's Contribution Calendar" width="100%" />
 </p>
 
 <p align="center">
