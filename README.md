@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <strong>Targeting: Cloud Engineer Intern | DevOps Engineer Intern </strong>
+  <strong>Targeting: Cloud Engineer Intern | DevOps Engineer Intern | Platform Engineer Intern | SRE Intern</strong>
 </p>
 
 <p align="center">
@@ -126,56 +126,57 @@ I am a Systems and Infrastructure Engineering student from **Tamil Nadu, India**
 
 ---
 
-### 📅 Contribution Activity & Metrics
+### 📂 Technical Blueprints & Engineering Specs
 
-<p align="center">
-  <img src="https://ghchart.osyear.one/Jeev15offx" alt="Jeevan's Contribution Calendar" width="100%" />
-</p>
+This section contains code structures, Docker patterns, network schemas, and telemetry configs for projects.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Jeev15offx/Jeev15offx/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+<details>
+<summary><strong>🖥️ Deep Dive: Home Server DevOps Lab Compose Configuration</strong></summary>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jeev15offx&bg_color=0f172a&color=38bdf8&line=06b6d4&point=10b981&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
-</p>
+```yaml
+version: '3.8'
 
----
+networks:
+  homelab_secure_bridge:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.88.20.0/24
 
-### 📊 Engineering Statistics
+services:
+  pihole:
+    container_name: DNS_Filter_Engine
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "8080:80/tcp"
+    environment:
+      TZ: 'Asia/Kolkata'
+      WEBPASSWORD: 'SecurePasswordStringHash'
+    volumes:
+      - './dns/pihole/:/etc/pihole/'
+      - './dns/dnsmasq.d/:/etc/dnsmasq.d/'
+    networks:
+      homelab_secure_bridge:
+        ipv4_address: 10.88.20.5
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
+    restart: unless-stopped
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Jeev15offx&show_icons=true&theme=tokyonight&count_private=true" alt="Stats" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeev15offx&theme=tokyonight" alt="Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jeev15offx&layout=compact&theme=tokyonight" alt="Langs" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jeev15offx&theme=tokyonight" alt="Profile Details" />
-    </td>
-  </tr>
-</table>
+  portainer:
+    container_name: Container_Orchestration_UI
+    image: portainer/portainer-ce:latest
+    ports:
+      - "9443:9443"
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+      - 'portainer_data:/data'
+    networks:
+      homelab_secure_bridge:
+        ipv4_address: 10.88.20.10
+    restart: always
 
----
-
-### 🎯 2026 Objectives & Key Results (OKRs)
-*   **Goal 1:** Secure an internship focused on DevOps, SRE, or Platform Engineering.
-*   **Goal 2:** Deploy full multi-node Kubernetes container environments (using Kubeadm).
-*   **Goal 3:** Migrate current homelab stacks into Terraform architectures.
-
----
-
-<p align="center">
-  <i>"Simplicity is the prerequisite for reliability." — Edsger W. Dijkstra</i>
-</p>
+volumes:
+  portainer_data:
