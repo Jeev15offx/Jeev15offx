@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Kernel+Diagnostics+%7C+Docker+%7C+Prometheus;Automating+Bare-Metal+%26+Cloud+Labs;Building+Resilient+High-Availability+Labs;Linux+Systems+%26+Network+Engineer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Kernel+Diagnostics+%7C+Docker+%7C+Prometheus;Cloud+Labs;Building+Resilient+High-Availability+Labs;Linux+Systems" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
