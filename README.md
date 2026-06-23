@@ -1,8 +1,8 @@
-# 🛠️ Jeevan S | Systems, Cloud & DevOps Infrastructure Engineer
+# 🛠️ Jeevan S | Cloud & DevOps Infrastructure Engineer
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Jeev15offx&style=flat-square&color=blue&label=Profile+Views" alt="Visitor Count" />
-  <img src="https://img.shields.io/badge/Status-Actively+Seeking+Internships-brightgreen?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Seeking+Internships-brightgreen?style=flat-square" alt="Status" />
 </p>
 
 <p align="center">
@@ -27,97 +27,147 @@
 
 ---
 
-## 👤 Executive Profile & Core Philosophy
+### 👤 About Me
+I am a Systems and Infrastructure Engineering student from **Tamil Nadu, India** focused on container runtimes, system performance tuning, and hybrid networks. 
 
-I am a systems-focused infrastructure engineer based in **Tamil Nadu, India**. My technical journey is anchored in the belief that software is only as good as the runtime infrastructure supporting it. I specialize in bare-metal hypervisors, container boundaries, local and cloud networks, and deep-dive operating system diagnostics.
-
-*   🎯 **Aspiration:** To design, build, monitor, and scale infrastructure platforms that achieve 99.99% availability.
-*   📖 **Daily Routine:** Writing automation scripts, simulating kernel crash recovery scenarios, tracing TCP packets, and building decoupled application platforms.
-*   🛡️ **Key Principle:** Zero-Trust networking, declarative infrastructure definitions, and high-fidelity observability pipelines.
+*   💡 **Core Philosophy:** Declarative infrastructure definition, high-fidelity monitoring, and zero-trust container architecture.
+*   🌱 **Currently Active:** Provisioning AWS VPC multi-tier networks, tuning Linux kernel storage limits, and writing custom telemetry dashboards.
 
 ---
 
-## 🛠️ Unified Technology Index
+### 🛠️ Tech Stack & Tooling
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="20%" bgcolor="#0f172a">
-      <strong>💻 Linux & Systems</strong>
-    </td>
-    <td align="center" width="20%" bgcolor="#0f172a">
-      <strong>📦 Containers & IaC</strong>
-    </td>
-    <td align="center" width="20%" bgcolor="#0f172a">
-      <strong>☁️ Cloud Platforms</strong>
-    </td>
-    <td align="center" width="20%" bgcolor="#0f172a">
-      <strong>📊 Observability</strong>
-    </td>
-    <td align="center" width="20%" bgcolor="#0f172a">
-      <strong>🛠️ CI/CD & Languages</strong>
-    </td>
+    <td align="center" width="20%"><strong>OS & Scripting</strong></td>
+    <td align="center" width="20%"><strong>Containers & IaC</strong></td>
+    <td align="center" width="20%"><strong>Cloud Services</strong></td>
+    <td align="center" width="20%"><strong>Observability</strong></td>
+    <td align="center" width="20%"><strong>CI/CD & Tools</strong></td>
   </tr>
   <tr>
-    <td align="left" valign="top">
-      • Linux kernel tuning<br/>
-      • Systemd unit design<br/>
-      • Bash automation<br/>
-      • LVM & filesystem mgmt<br/>
-      • Process limits (`ulimit`)
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
     </td>
-    <td align="left" valign="top">
-      • Docker runtime boundary<br/>
-      • Docker Compose stacks<br/>
-      • Kubernetes (kubeadm)<br/>
-      • Network policies (Calico)<br/>
-      • Terraform providers
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Compose-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
     </td>
-    <td align="left" valign="top">
-      • AWS Core (VPC subnets)<br/>
-      • Route53 DNS configurations<br/>
-      • AWS IAM role matrices<br/>
-      • AWS EC2/S3 lifecycle policies<br/>
-      • Hybrid cloud endpoints
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/VPC-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" />
     </td>
-    <td align="left" valign="top">
-      • Prometheus TSDB scaling<br/>
-      • Grafana dashboards<br/>
-      • cAdvisor runtime metrics<br/>
-      • Node Exporter configurations<br/>
-      • Alertmanager pipelines
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/cAdvisor-2496ED?style=flat-square&logo=docker&logoColor=white" />
     </td>
-    <td align="left" valign="top">
-      • Python automation scripts<br/>
-      • Git version trees<br/>
-      • GitHub Actions workflows<br/>
-      • Cron automation<br/>
-      • REST APIs integration
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
     </td>
   </tr>
 </table>
 
 ---
 
-## 🗄️ Deep Dive: Comprehensive Project Registry & Runbooks
+### 🚀 Pinned Infrastructure Projects
 
-Here are complete technical rundowns of the infrastructure stacks, monitoring topologies, and troubleshooting configurations I have actively designed, implemented, and verified.
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🖥️ Home Server DevOps Lab</h4>
+      <p>Self-hosted server lab running virtualization layers, custom networking bridges, local DNS filters, and multi-service compose stacks.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pi_hole-96060C?style=flat-square&logo=pi-hole&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📊 Multi-Container Monitoring Stack</h4>
+      <p>Complete observability pipeline scraping container resource usages, metrics configurations, and custom threshold alerting.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☁️ Cloud Resume Analyst</h4>
+      <p>Decoupled parse automation scanning candidate logs, executing syntax linting, and returning structured data profiles.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/APIs-0052CC?style=flat-square&logo=postman&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ Linux Troubleshooting Practice</h4>
+      <p>System debugging logs resolving port exhaustion, storage inode bottlenecks, and control-group memory limits.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Systemd-29007A?style=flat-square&logo=systemd&logoColor=white" />
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+        <img src="https://img.shields.io/badge/Network-000000?style=flat-square&logo=linux-foundation&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-### 🖥️ Stack 1: Home Server DevOps Lab (Local Infrastructure Engine)
-A bare-metal development environment hosted locally, configured using containerized stacks, virtual network bridges, and persistent storage layers.
+---
 
-```text
-                               +----------------------------------------+
-                               |              Physical Host             |
-                               |          OS: Ubuntu Server LTS         |
-                               +----------------------------------------+
-                                                   |
-                                                   v
-                            +----------------------------------------------+
-                            |       Docker Engine Daemon Layer (Bridge)    |
-                            +----------------------------------------------+
-                                |                  |                 |
-                                v                  v                 v
-                    +--------------------+ +---------------+ +-----------------+
-                    | Private DNS Engine | | Web Interface | | Storage Volumes |
-                    |      Pi-hole       | |   Portainer   | | Local Bind/NFS  |
-                    +--------------------+ +---------------+ +-----------------+
+### 📅 Contribution Activity & Metrics
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/calendar?username=Jeev15offx&theme=tokyonight" alt="GitHub Contribution Calendar" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jeev15offx&bg_color=0f172a&color=38bdf8&line=06b6d4&point=10b981&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+</p>
+
+---
+
+### 📊 Engineering Statistics
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Jeev15offx&show_icons=true&theme=tokyonight&count_private=true" alt="Stats" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeev15offx&theme=tokyonight" alt="Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jeev15offx&layout=compact&theme=tokyonight" alt="Langs" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jeev15offx&theme=tokyonight" alt="Profile Details" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🎯 2026 Objectives & Key Results (OKRs)
+*   **Goal 1:** Secure an internship focused on DevOps, SRE, or Platform Engineering.
+*   **Goal 2:** Deploy full multi-node Kubernetes container environments (using Kubeadm).
+*   **Goal 3:** Migrate current homelab stacks into Terraform architectures.
+
+---
+
+<p align="center">
+  <i>"Simplicity is the prerequisite for reliability." — Edsger W. Dijkstra</i>
+</p>
